@@ -29,6 +29,16 @@
                 <li><a href="#comunidade">Comunidade</a></li>
                 <li><a href="#links">Links</a></li>
             </ul>
+            <div id="user-area" class="user-area">
+                <button id="btn-login" class="btn-login">Entrar com Google</button>
+                
+                <div id="user-info" class="user-info hidden">
+                    <img id="user-photo" class="user-photo" src="" alt="Foto">
+                    <span id="user-name" class="user-name"></span>
+                    <button id="btn-logout" class="btn-logout">Sair</button>
+                    <div class="hidden"></div>
+                </div>
+            </div>
         </div>
     </nav>
 
@@ -213,6 +223,17 @@
         </div>
     </footer>
 
+    <div id="modal-sair" class="modal-overlay hidden">
+        <div class="modal-content">
+            <p>Você tem certeza que deseja sair?</p>
+            <div style="margin-top: 15px;">
+            <button id="btn-confirmar-sair" class="btn-submit">Sair</button>
+            <button id="btn-cancelar-sair" class="btn-cancel">Cancelar</button>
+            </div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
+    <script type="module" src="auth.js"></script>
 </body>
 </html>
