@@ -467,22 +467,23 @@ body {
     color: var(--text-secondary);
 }
 
-/* Modal */
+/* Modal Base Structure */
 .modal {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.85);
-    backdrop-filter: blur(12px);
+    background: rgba(10, 12, 18, 0.9) !important; /* Fundo mais escuro e sólido */
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 2000;
+    z-index: 9999 !important; /* Garantir que fique acima de tudo */
     opacity: 0;
     visibility: hidden;
-    transition: opacity 0.4s cubic-bezier(0.23, 1, 0.32, 1), visibility 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+    transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .modal.active {
@@ -490,26 +491,136 @@ body {
     visibility: visible;
 }
 
+/* Modal Content Card */
 .modal-content {
-    width: 90%;
-    max-width: 600px;
-    max-height: 85vh;
-    padding: 32px;
-    overflow-y: auto;
-    position: relative;
+    width: 90% !important;
+    max-width: 650px !important;
+    max-height: 85vh !important;
+    padding: 40px !important;
+    overflow-y: auto !important;
+    position: relative !important;
     transform: scale(0.95);
     transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+    background: #1a1d2c !important; /* Cor sólida para garantir o design */
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 24px !important;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7) !important;
 }
 
 .modal.active .modal-content {
     transform: scale(1);
 }
 
+/* Header Refinement */
 .modal-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 24px;
+    margin-bottom: 32px !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+    padding-bottom: 20px !important;
+}
+
+.modal-header h2 {
+    font-size: 1.6rem !important;
+    font-weight: 800 !important;
+    color: #ffffff !important;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Body & Typography */
+.modal-body {
+    line-height: 1.8 !important;
+    text-align: left !important; /* Alinhamento à esquerda garantido */
+}
+
+#aviso-modal-meta {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px !important;
+    font-size: 0.85rem !important;
+    color: #949ba4 !important;
+    justify-content: flex-start !important;
+}
+
+#aviso-modal-content {
+    font-size: 1.05rem !important;
+    color: #dbdee1 !important; /* Cor de texto do Discord */
+    white-space: pre-wrap !important;
+    line-height: 1.7 !important;
+    text-align: left !important;
+}
+
+/* Material List Items */
+.material-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 10px;
+    text-decoration: none;
+    transition: var(--transition);
+    border: 1px solid transparent;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.material-item:hover {
+    background: rgba(255, 255, 255, 0.06);
+    border-color: var(--glass-border);
+    transform: translateX(5px);
+}
+
+.material-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex: 1;
+    text-align: left;
+}
+
+.material-name {
+    color: var(--text-primary);
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+.material-type {
+    padding: 2px 8px;
+    background: rgba(88, 101, 242, 0.1);
+    color: var(--accent-color);
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    flex-shrink: 0; /* Impede que a badge encolha ou se mova estranhamente */
+    margin-left: auto; /* Empurra a badge para a direita do container de info ou alinha fixo */
+}
+
+.material-download {
+    color: var(--text-secondary);
+    font-size: 1.2rem;
+    margin-left: 15px;
+    transition: var(--transition);
+}
+
+.material-item:hover .material-download {
+    color: var(--accent-color);
+}
+
+/* Modal Logout (Overlay) */
+.modal-overlay {
+    background: rgba(10, 12, 18, 0.9) !important;
+    backdrop-filter: blur(12px) !important;
+    z-index: 9999 !important;
+}
+
+.modal-overlay .modal-content {
+    max-width: 420px !important;
+    text-align: center !important;
 }
 
 /* Modal Accordions */
@@ -546,6 +657,37 @@ body {
 
 .close-modal:hover {
     color: var(--text-primary);
+}
+
+.btn-cancel, .btn-submit {
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    border: none;
+    font-size: 0.95rem;
+}
+
+.btn-cancel {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-primary);
+    border: 1px solid var(--glass-border);
+    margin-left: 12px;
+}
+
+.btn-cancel:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.btn-submit {
+    background: var(--danger-color);
+    color: white;
+}
+
+.btn-submit:hover {
+    background: #d83c3e;
+    transform: translateY(-2px);
 }
 
 /* Timetable */
@@ -977,7 +1119,29 @@ body {
   font-weight: bold;
 }
 
-.btn-login, .btn-logout {
+.btn-login {
+  background-color: #5865f2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: var(--transition);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.btn-login:hover {
+  background-color: #4752c4;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 15px rgba(88, 101, 242, 0.3);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.btn-logout {
   background-color: #5865f2;
   color: white;
   border: none;
@@ -987,7 +1151,7 @@ body {
   transition: background-color 0.3s ease;
 }
 
-.btn-login:hover, .btn-logout:hover {
+.btn-logout:hover {
   background-color: #1b0edb;
 }
 

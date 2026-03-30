@@ -211,7 +211,7 @@ function openWhatsAppModal(e, grupos) {
             <h4>${g.nome}</h4>
             <p>${g.desc}</p>
             <a href="${g.link}" target="_blank" class="btn btn-primary" style="width: 100%; justify-content: center;">
-                Baixar <i class="ph ph-whatsapp-logo"></i> Entrar
+                <i class="ph ph-whatsapp-logo"></i> Entrar
             </a>
         </div>
     `).join('');
@@ -255,15 +255,13 @@ function openMaterialsModal(materiaId) {
                 <div class="accordion-content">
                     <div class="accordion-inner" style="padding: 10px 0;">
                         ${categorias[catName].map(mat => `
-                            <div class="link-item" style="margin-bottom: 10px; background: rgba(255,255,255,0.02);">
-                                <div class="link-info">
-                                    <span class="link-name">${mat.nome}</span>
-                                    <span class="link-desc">${mat.tipo || 'Arquivo'}</span>
+                            <a href="${mat.url}" target="_blank" class="material-item">
+                                <div class="material-info">
+                                    <span class="material-name">${mat.nome}</span>
+                                    <span class="material-type">${mat.tipo || 'PDF'}</span>
                                 </div>
-                                <a href="${mat.url}" target="_blank" class="btn btn-primary" style="padding: 8px 16px; font-size: 0.8rem;">
-                                    <i class="ph ph-download-simple"></i> Baixar
-                                </a>
-                            </div>
+                                <i class="ph ph-download-simple material-download"></i>
+                            </a>
                         `).join('')}
                     </div>
                 </div>
