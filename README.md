@@ -138,15 +138,12 @@ Toda contribuição é bem-vinda — seja para corrigir bugs, melhorar a interfa
 
 ## 📁 Estrutura do Projeto
 
-```bash
-/
-├── index.html          # Estrutura principal do portal
-├── style.css           # Estilização e layout visual
-├── script.js           # Lógica dinâmica e interatividade
-├── data.json           # Base de dados do portal
-├── admin_panel.html    # Ferramenta auxiliar para geração de conteúdo
-└── README.md           # Documentação do projeto
-```
+- `index.html`: Estrutura principal do portal.
+- `js/`: Lógica de scripts (script.js, auth.js, firebase.js).
+- `css/`: Estilização (style.css).
+- `assets/`: Imagens e recursos visuais.
+- `data.json`: O "banco de dados" onde todas as informações são armazenadas.
+- `admin_panel.html`: Ferramenta interna para gerar novos blocos de código JSON.
 
 ## 🤝 Sobre a Proposta
 
