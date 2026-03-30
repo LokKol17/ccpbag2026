@@ -23,8 +23,15 @@ if (btnLogin) {
   btnLogin.addEventListener("click", () => {
     const provider = new GoogleAuthProvider();
     signInWithPopup(auth, provider).catch((erro) => {
-      console.error("Erro no login:", erro);
-      alert("Erro ao tentar fazer login.");
+      console.error("Erro no login:", erro.code, erro.message);
+      
+      if (erro.code === 'auth/unauthorized-domain') {
+        alert("Erro: Este domínio não está autorizado no Firebase. Adicione 'ccpbag2026.vercel.app' nos domínios autorizados do Console do Firebase.");
+      } else if (erro.code === 'auth/popup-blocked') {
+        alert("O seu navegador bloqueou o popup de login. Por favor, permita popups para este site.");
+      } else {
+        alert("Erro ao tentar fazer login. Verifique o console para mais detalhes.");
+      }
     });
   });
 }
