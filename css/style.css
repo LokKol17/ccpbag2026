@@ -440,6 +440,31 @@ body {
     color: var(--text-secondary);
 }
 
+.event-attachment {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+    padding: 6px 12px;
+    background: rgba(88, 101, 242, 0.1);
+    color: var(--accent-color);
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    border: 1px solid rgba(88, 101, 242, 0.2);
+    transition: var(--transition);
+}
+
+.event-attachment:hover {
+    background: rgba(88, 101, 242, 0.2);
+    transform: translateX(5px);
+}
+
+.event-attachment i {
+    font-size: 1rem;
+}
+
 /* Footer */
 .footer {
     padding: 80px 0 40px;

@@ -371,6 +371,11 @@ function renderAgenda(eventos) {
                 <div class="event-info">
                     <h3>${e.evento} ${isNext ? '<span class="next-badge">PRÓXIMO</span>' : ''}</h3>
                     <p><i class="ph ph-map-pin"></i> ${e.local} • <i class="ph ph-clock"></i> ${e.horario}</p>
+                    ${e.arquivo ? `
+                        <a href="${e.arquivo.url}" target="_blank" class="event-attachment">
+                            <i class="ph ph-file-text"></i> ${e.arquivo.nome}
+                        </a>
+                    ` : ''}
                 </div>
                 <div class="event-tag">
                     <span class="badge">${e.tipo}</span>

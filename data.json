@@ -95,7 +95,20 @@
           "id": "vga",
           "nome": "Vetores e Geometria Analítica",
           "professor": "Anthony",
-          "materiais": [],
+          "materiais": [
+            {
+              "nome": "Aula 1 Apresentação", "url": "https://files.catbox.moe/v37yze.pdf",
+              "tipo": "PDF", "categoria": "Aula 1"
+            },
+            {
+              "nome": "Aula 2 Introducao Matrizes", "url": "https://files.catbox.moe/9e4p3l.pdf",
+              "tipo": "PDF", "categoria": "Aula 1"
+            },
+            {
+              "nome": "Aula 3 Ponto Reta e Circunferencia", "url": "https://files.catbox.moe/pn4caa.pdf",
+              "tipo": "PDF", "categoria": "Aula 1"
+            }
+          ],
           "resumos": "",
           "status": "Em andamento"
         },
@@ -135,7 +148,19 @@
       ]
     }
   ],
-  "agenda": [],
+  "agenda": [
+    {
+      "evento": "Seminário de Met. e Redação Científica",
+      "data": "2026-04-06",
+      "horario": "13:30",
+      "local": "Sala 206",
+      "tipo": "Trabalho",
+      "arquivo": {
+        "nome": "Grupos",
+        "url": "https://files.catbox.moe/mtrgcd.pdf"
+      }
+    }
+  ],
   "links_uteis": [
     {
       "categoria": "Desenvolvimento",
@@ -183,6 +208,7 @@
       "nome": "Eduardo Demétrio",
       "cargo": "Dev. Implementou o login",
       "avatar": "https://cdn.discordapp.com/avatars/503660888583307274/5ae072e13b3d44931f733bf7e1838f8c.webp?size=80",
+      "github": "https://github.com/Diduzinho3",
       "instagram": "https://www.instagram.com/demettrius._/"
     }
   ],

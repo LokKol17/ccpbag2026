@@ -190,6 +190,18 @@
                         <option value="Feriado">Feriado</option>
                     </select>
                 </div>
+
+                <div style="border: 1px dashed var(--glass-border); padding: 20px; border-radius: 12px; margin-bottom: 20px;">
+                    <label style="margin-bottom: 10px; display: block; font-weight: 700; color: var(--accent-color);">📎 Anexo Opcional</label>
+                    <div class="form-group">
+                        <label>Nome do Arquivo</label>
+                        <input type="text" id="age-arq-nome" placeholder="Ex: PDF da Atividade / Instruções">
+                    </div>
+                    <div class="form-group">
+                        <label>Link do Arquivo</label>
+                        <input type="url" id="age-arq-url" placeholder="https://files.catbox.moe/...">
+                    </div>
+                </div>
                 
                 <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center; margin-top: 20px;">
                     <i class="ph ph-calendar-plus"></i> Gerar Bloco JSON
@@ -273,6 +285,9 @@
 
         agendaForm.onsubmit = (e) => {
             e.preventDefault();
+            const arqNome = document.getElementById('age-arq-nome').value;
+            const arqUrl = document.getElementById('age-arq-url').value;
+
             const agenda = {
                 evento: document.getElementById('age-evento').value,
                 data: document.getElementById('age-data').value,
@@ -280,6 +295,14 @@
                 local: document.getElementById('age-local').value,
                 tipo: document.getElementById('age-tipo').value
             };
+
+            if (arqNome && arqUrl) {
+                agenda.arquivo = {
+                    nome: arqNome,
+                    url: arqUrl
+                };
+            }
+
             showOutput(agenda);
         };
 
