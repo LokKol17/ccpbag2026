@@ -98,15 +98,21 @@
           "materiais": [
             {
               "nome": "Aula 1 Apresentação", "url": "https://files.catbox.moe/v37yze.pdf",
-              "tipo": "PDF", "categoria": "Aula 1"
+              "tipo": "PDF", "categoria": "Aulas"
             },
             {
               "nome": "Aula 2 Introducao Matrizes", "url": "https://files.catbox.moe/9e4p3l.pdf",
-              "tipo": "PDF", "categoria": "Aula 1"
+              "tipo": "PDF", "categoria": "Aulas"
             },
             {
               "nome": "Aula 3 Ponto Reta e Circunferencia", "url": "https://files.catbox.moe/pn4caa.pdf",
-              "tipo": "PDF", "categoria": "Aula 1"
+              "tipo": "PDF", "categoria": "Aulas"
+            },
+            {
+              "nome": "Aula 4 -Cônicas",
+              "url": "https://u.pone.rs/owggintz.pdf",
+              "tipo": "PDF",
+              "categoria": "Aulas"
             }
           ],
           "resumos": "",
@@ -210,6 +216,13 @@
       "avatar": "https://cdn.discordapp.com/avatars/503660888583307274/5ae072e13b3d44931f733bf7e1838f8c.webp?size=80",
       "github": "https://github.com/Diduzinho3",
       "instagram": "https://www.instagram.com/demettrius._/"
+    },
+    {
+      "nome": "Jorge Barbosa",
+      "cargo": "Dev. Otimizou o Hero",
+      "avatar": "https://avatars.githubusercontent.com/u/76881681?v=4",
+      "github": "https://github.com/LokKol17",
+      "instagram": "https://www.instagram.com/"
     }
   ],
   "horario": [
