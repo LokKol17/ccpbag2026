@@ -25,7 +25,15 @@
       "descricao_longa": "📢 Atenção, comunidade UFMT!\n\nConvidamos todos os alunos, servidores e docentes para participarem da atualização da caderneta de vacinação do adulto.\n\n📅 Data: 26/03/2026\n⏰ Horários: das 08h às 11h e das 13h às 17h\n📍 Locais:\n\nLaboratório de Enfermagem 2\nBloco da Enfermagem\n\nEssa é uma oportunidade importante para colocar suas vacinas em dia e cuidar da sua saúde!\n\nNão esqueça de levar seu cartão de vacina, caso tenha.\n\nMas se você perdeu, não tem ou não sabe onde está, não tem problema! Você pode comparecer normalmente. Basta levar um documento oficial com foto, que será feita uma nova caderneta para você.\n\nA ação é voltada para toda a comunidade UFMT (alunos, servidores e docentes).\n\nContamos com a presença de todos! 💙",
       "data": "2026-03-24",
       "categoria": "Evento"
-    } 
+    },
+    {
+      "id": 4,
+      "titulo": "OPORTUNIDADE  COM BOLSA – CNPq",
+      "conteudo": "O INPP, em parceria com a UFMT Cuiabá, está selecionando participantes para projetos  desenvolvimento de aplicações tecnológicas.",
+      "descricao_longa": " OPORTUNIDADE PARA ALUNOS E EGRESSOS DE COMPUTAÇÃO (COM BOLSA – CNPq)\n\nPessoal, surgiu uma oportunidade para quem quer atuar com tecnologia aplicada à pesquisa científica!\n\nO Instituto Nacional de Pesquisa do Pantanal (INPP), em parceria com a UFMT (Cuiabá), está selecionando participantes para projetos focados no desenvolvimento de aplicações tecnológicas voltadas à divulgação da fauna e flora do Pantanal.\n\n Atuação pode ser remota\n\n Áreas de interesse:\n\nDesenvolvimento de software\nAplicações web/mobile\nVisualização de dados\nSistemas para divulgação científica\n\n Quem pode se candidatar?\n\nGraduados em Computação ou áreas afins (sem vínculo empregatício e sem outra bolsa)\nAlunos de graduação com experiência comprovada em projetos (PIBIC, VIC, etc.) também podem participar\n\n Bolsas (CNPq):\n\nDoutorado (≥2 anos): R$ 6.760,00\nDoutorado: R$ 5.408,00\nMestrado: R$ 4.394,00\nGraduação completa: R$ 3.718,00\nGraduação em andamento + ensino médio técnico: R$ 2.535,00\nGraduação em andamento: R$ 1.170,00\n\n Requisitos:\n\nNão possuir vínculo empregatício\nNão estar recebendo outra bolsa\n\n\n Interessados, enviar e-mail para coordenacao@computacao.cua.ufmt.br.",
+      "data": "2026-04-27",
+      "categoria": "Geral"
+    }
   ],
   "comunidade": [
     {
@@ -94,7 +102,7 @@
         {
           "id": "vga",
           "nome": "Vetores e Geometria Analítica",
-          "professor": "Anthony",
+          "professor": "José Pessoa",
           "materiais": [
             {
               "nome": "Aula 1 Apresentação", "url": "https://files.catbox.moe/v37yze.pdf",
@@ -155,17 +163,7 @@
     }
   ],
   "agenda": [
-    {
-      "evento": "Seminário de Met. e Redação Científica",
-      "data": "2026-04-06",
-      "horario": "13:30",
-      "local": "Sala 206",
-      "tipo": "Trabalho",
-      "arquivo": {
-        "nome": "Grupos",
-        "url": "https://files.catbox.moe/mtrgcd.pdf"
-      }
-    }
+
   ],
   "links_uteis": [
     {
@@ -245,8 +243,8 @@
     {
       "dia": "4ª Feira",
       "aulas": [
-        { "materia": "Vetores e Geom. Analítica", "hora": "07:30 - 09:30", "sala": "Sala 206" },
-        { "materia": "Vetores e Geom. Analítica", "hora": "09:30 - 11:30", "sala": "Sala 206" }
+        { "materia": "Vetores e Geom. Analítica", "hora": "13:30 - 15:30", "sala": "Sala 206" },
+        { "materia": "Vetores e Geom. Analítica", "hora": "15:30 - 17:30", "sala": "Sala 206" }
       ]
     },
     {
