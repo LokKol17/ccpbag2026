@@ -163,7 +163,13 @@
     }
   ],
   "agenda": [
-
+    {
+      "evento": "Prova de Programação de Computadores",
+      "data": "2026-05-04",
+      "horario": "07:30",
+      "local": "Sala 206",
+      "tipo": "Prova" 
+    }
   ],
   "links_uteis": [
     {
