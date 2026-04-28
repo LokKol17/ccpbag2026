@@ -169,6 +169,13 @@
       "horario": "07:30",
       "local": "Sala 206",
       "tipo": "Prova" 
+    },
+    {
+      "evento": "Prova de Cálculo Diferencial e Integral I",
+      "data": "2026-05-26",
+      "horario": "07:30",
+      "local": "Sala 206",
+      "tipo": "Prova" 
     }
   ],
   "links_uteis": [
