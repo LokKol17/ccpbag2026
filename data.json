@@ -45,7 +45,8 @@
         { "nome": "Grupo Geral", "link": "https://chat.whatsapp.com/KrjXP3wuzH65Ci3EYmMGFw", "desc": "Avisos e conversas gerais." },
         { "nome": "Grupo da Turma", "link": "https://chat.whatsapp.com/Gsdc9Jo0WHe5m3wE7KWOET", "desc": "Focado em tirar dúvidas e compartilhar materiais." }, 
         { "nome": "Cálculo I", "link": "https://chat.whatsapp.com/Jlci1ZxL4qzFBk7MpLirPg", "desc": "Grupo dedicado à disciplina Cálculo Diferencial e Integral I." },
-        { "nome": "Vetores e Geometria", "link": "https://chat.whatsapp.com/BnvNK1HRyA56l8QCKIR0JD", "desc": "Grupo dedicado à disciplina de Vetores e Geometria." }
+        { "nome": "Vetores e Geometria", "link": "https://chat.whatsapp.com/BnvNK1HRyA56l8QCKIR0JD", "desc": "Grupo dedicado à disciplina de Vetores e Geometria." },
+        { "nome": "Monitoria Programação 1", "link": "https://chat.whatsapp.com/ImHtIXYSTkXDImzTAsWCzN", "desc": "Grupo de apoio para a matéria de Programação de Computadores." }      
       ]
     },
     {
