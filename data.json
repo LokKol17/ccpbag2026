@@ -8,7 +8,6 @@
       "data": "2026-03-24",
       "categoria": "Geral"
     },
-
     {
       "id": 2,
       "titulo": "🎓 Inscrições abertas para o Programa de Tutoria da UFMT — 2026/1",
@@ -17,7 +16,6 @@
       "data": "2026-03-24",
       "categoria": "Geral"
     },
-
     {
       "id": 3,
       "titulo": "💉 Dia da Vacinação",
@@ -33,6 +31,78 @@
       "descricao_longa": "📢 OPORTUNIDADE PARA ALUNOS E EGRESSOS DE COMPUTAÇÃO (COM BOLSA – CNPq)\n\nPessoal, surgiu uma oportunidade para quem quer atuar com tecnologia aplicada à pesquisa científica!\n\nO Instituto Nacional de Pesquisa do Pantanal (INPP), em parceria com a UFMT (Cuiabá), está selecionando participantes para projetos focados no desenvolvimento de aplicações tecnológicas voltadas à divulgação da fauna e flora do Pantanal.\n\n 💻 Atuação pode ser remota\n\n 🚀 Áreas de interesse:\n\nDesenvolvimento de software\nAplicações web/mobile\nVisualização de dados\nSistemas para divulgação científica\n\n ✅ Quem pode se candidatar?\n\nGraduados em Computação ou áreas afins (sem vínculo empregatício e sem outra bolsa)\n🎓 Alunos de graduação com experiência comprovada em projetos (PIBIC, VIC, etc.) também podem participar\n\n 💰 Bolsas (CNPq):\n\nDoutorado (≥2 anos): R$ 6.760,00\nDoutorado: R$ 5.408,00\nMestrado: R$ 4.394,00\nGraduação completa: R$ 3.718,00\nGraduação em andamento + ensino médio técnico: R$ 2.535,00\nGraduação em andamento: R$ 1.170,00\n\n 📌 Requisitos:\n\nNão possuir vínculo empregatício\nNão estar recebendo outra bolsa\n\n\n 📣 Interessados, enviar e-mail para coordenacao@computacao.cua.ufmt.br.",
       "data": "2026-04-27",
       "categoria": "Geral"
+    },
+    {
+      "id": 5,
+      "titulo": "Prova de Geometria Analítica",
+      "conteudo": "Prova de Geometria Analítica marcada para 27/05.",
+      "descricao_longa": "",
+      "data": "2026-05-27",
+      "categoria": "Prova"
+    },
+    {
+      "id": 6,
+      "titulo": "Entrega Lista 3",
+      "conteudo": "Entrega da Lista 3 até 20/05.",
+      "descricao_longa": "",
+      "data": "2026-05-20",
+      "categoria": "Trabalho"
+    },
+    {
+      "id": 7,
+      "titulo": "Entrega Lista 2",
+      "conteudo": "Entrega da Lista 2 até 17/05.",
+      "descricao_longa": "",
+      "data": "2026-05-17",
+      "categoria": "Trabalho"
+    },
+    {
+      "id": 8,
+      "titulo": "Entrega Lista 1",
+      "conteudo": "Entrega da Lista 1 até 14/05.",
+      "descricao_longa": "",
+      "data": "2026-05-14",
+      "categoria": "Trabalho"
+    },
+    {
+      "id": 9,
+      "titulo": "Reposição de Cálculo I",
+      "conteudo": "Reposição de Cálculo I em 05/05 às 14h.",
+      "descricao_longa": "",
+      "data": "2026-05-05",
+      "categoria": "Prova"
+    },
+    {
+      "id": 10,
+      "titulo": "Reposição de Cálculo I",
+      "conteudo": "Reposição de Cálculo I em 28/04 às 14h.",
+      "descricao_longa": "",
+      "data": "2026-04-28",
+      "categoria": "Prova"
+    },
+    {
+      "id": 11,
+      "titulo": "Prova de Cálculo I",
+      "conteudo": "Prova de Cálculo I marcada para 19/05.",
+      "descricao_longa": "",
+      "data": "2026-05-19",
+      "categoria": "Prova"
+    },
+    {
+      "id": 12,
+      "titulo": "Prova de Programação I",
+      "conteudo": "Prova de Programação I marcada para 04/05.",
+      "descricao_longa": "",
+      "data": "2026-05-04",
+      "categoria": "Prova"
+    },
+    {
+      "id": 13,
+      "titulo": "Worms Revolution",
+      "conteudo": "Evento Worms Revolution em 26/04 às 15:00. Inscrição: https://forms.gle/7Wuxdo6ABnjGapji9",
+      "descricao_longa": "",
+      "data": "2026-04-26",
+      "categoria": "Evento"
     }
   ],
   "comunidade": [
@@ -42,11 +112,31 @@
       "descricao": "Nossos grupos de comunicação rápida no WhatsApp.",
       "icone": "ph-whatsapp-logo",
       "grupos": [
-        { "nome": "Grupo Geral", "link": "https://chat.whatsapp.com/KrjXP3wuzH65Ci3EYmMGFw", "desc": "Avisos e conversas gerais." },
-        { "nome": "Grupo da Turma", "link": "https://chat.whatsapp.com/Gsdc9Jo0WHe5m3wE7KWOET", "desc": "Focado em tirar dúvidas e compartilhar materiais." }, 
-        { "nome": "Cálculo I", "link": "https://chat.whatsapp.com/Jlci1ZxL4qzFBk7MpLirPg", "desc": "Grupo dedicado à disciplina Cálculo Diferencial e Integral I." },
-        { "nome": "Vetores e Geometria", "link": "https://chat.whatsapp.com/BnvNK1HRyA56l8QCKIR0JD", "desc": "Grupo dedicado à disciplina de Vetores e Geometria." },
-        { "nome": "Monitoria Programação 1", "link": "https://chat.whatsapp.com/ImHtIXYSTkXDImzTAsWCzN", "desc": "Grupo de apoio para a matéria de Programação de Computadores." }      
+        {
+          "nome": "Grupo Geral",
+          "link": "https://chat.whatsapp.com/KrjXP3wuzH65Ci3EYmMGFw",
+          "desc": "Avisos e conversas gerais."
+        },
+        {
+          "nome": "Grupo da Turma",
+          "link": "https://chat.whatsapp.com/Gsdc9Jo0WHe5m3wE7KWOET",
+          "desc": "Focado em tirar dúvidas e compartilhar materiais."
+        },
+        {
+          "nome": "Cálculo I",
+          "link": "https://chat.whatsapp.com/Jlci1ZxL4qzFBk7MpLirPg",
+          "desc": "Grupo dedicado à disciplina Cálculo Diferencial e Integral I."
+        },
+        {
+          "nome": "Vetores e Geometria",
+          "link": "https://chat.whatsapp.com/BnvNK1HRyA56l8QCKIR0JD",
+          "desc": "Grupo dedicado à disciplina de Vetores e Geometria."
+        },
+        {
+          "nome": "Monitoria Programação 1",
+          "link": "https://chat.whatsapp.com/ImHtIXYSTkXDImzTAsWCzN",
+          "desc": "Grupo de apoio para a matéria de Programação de Computadores."
+        }
       ]
     },
     {
@@ -92,10 +182,30 @@
           "nome": "Cálculo Diferencial e Integral I",
           "professor": "Juan Elmer",
           "materiais": [
-            { "nome": "Aula 1", "url": "https://files.catbox.moe/kz3o7c.pdf", "tipo": "PDF", "categoria": "Aulas" },
-            { "nome": "Aula 2", "url": "https://files.catbox.moe/lrmbhm.pdf", "tipo": "PDF", "categoria": "Aulas" },
-            { "nome": "Lista 1", "url": "https://files.catbox.moe/nrt6qu.pdf", "tipo": "PDF", "categoria": "Listas" },
-            { "nome": "Lista 2", "url": "https://files.catbox.moe/cim4lz.pdf", "tipo": "PDF", "categoria": "Listas" }
+            {
+              "nome": "Aula 1",
+              "url": "https://files.catbox.moe/kz3o7c.pdf",
+              "tipo": "PDF",
+              "categoria": "Aulas"
+            },
+            {
+              "nome": "Aula 2",
+              "url": "https://files.catbox.moe/lrmbhm.pdf",
+              "tipo": "PDF",
+              "categoria": "Aulas"
+            },
+            {
+              "nome": "Lista 1",
+              "url": "https://files.catbox.moe/nrt6qu.pdf",
+              "tipo": "PDF",
+              "categoria": "Listas"
+            },
+            {
+              "nome": "Lista 2",
+              "url": "https://files.catbox.moe/cim4lz.pdf",
+              "tipo": "PDF",
+              "categoria": "Listas"
+            }
           ],
           "resumos": "",
           "status": "Em andamento"
@@ -106,16 +216,22 @@
           "professor": "José Pessoa",
           "materiais": [
             {
-              "nome": "Aula 1 Apresentação", "url": "https://files.catbox.moe/v37yze.pdf",
-              "tipo": "PDF", "categoria": "Aulas"
+              "nome": "Aula 1 Apresentação",
+              "url": "https://files.catbox.moe/v37yze.pdf",
+              "tipo": "PDF",
+              "categoria": "Aulas"
             },
             {
-              "nome": "Aula 2 Introducao Matrizes", "url": "https://files.catbox.moe/9e4p3l.pdf",
-              "tipo": "PDF", "categoria": "Aulas"
+              "nome": "Aula 2 Introducao Matrizes",
+              "url": "https://files.catbox.moe/9e4p3l.pdf",
+              "tipo": "PDF",
+              "categoria": "Aulas"
             },
             {
-              "nome": "Aula 3 Ponto Reta e Circunferencia", "url": "https://files.catbox.moe/pn4caa.pdf",
-              "tipo": "PDF", "categoria": "Aulas"
+              "nome": "Aula 3 Ponto Reta e Circunferencia",
+              "url": "https://files.catbox.moe/pn4caa.pdf",
+              "tipo": "PDF",
+              "categoria": "Aulas"
             },
             {
               "nome": "Aula 4 -Cônicas",
@@ -148,14 +264,54 @@
           "nome": "Filosofia e Metodologia Científica",
           "professor": "Rafael Vital",
           "materiais": [
-            { "nome": "O Pesquisador e a Comunicação Científica", "url": "https://docs.google.com/document/d/1WrhP96RU5uTBDBKIYWh01_3-cwS6X5jH/edit?usp=sharing&ouid=105905708338666140795&rtpof=true&sd=true", "tipo": "DOCX", "categoria": "Aula 1" },
-            { "nome": "Tipos de Conhecimento", "url": "https://docs.google.com/document/d/17-0qq7BpDlElS3KvhJrZB89NFRxZSQ1s/edit?usp=sharing&ouid=105905708338666140795&rtpof=true&sd=true", "tipo": "DOCX", "categoria": "Aula 1" },
-            { "nome": "A Filosofia e a Metodologia da Pesquisa Científica", "url": "https://docs.google.com/document/d/1IxnPaBufdbl9gdm5WVpTeMCHueLgeA9O/edit?usp=sharing&ouid=105905708338666140795&rtpof=true&sd=true", "tipo": "DOCX", "categoria": "Aula 1" },
-            { "nome": "Atividade em Grupo", "url": "https://docs.google.com/document/d/1dO3Rja7WcRq8kwjBRFyWus6Rx4a7XdEX/edit?usp=sharing&ouid=105905708338666140795&rtpof=true&sd=true", "tipo": "DOCX", "categoria": "Aula 1" },
-            { "nome": "Linha do Tempo", "url": "https://files.catbox.moe/qwrjtr.jpg", "tipo": "JPG", "categoria": "Aula 1" },
-            { "nome": "A PESQUISA E SUAS CLASSIFICAÇÕES", "url": "https://docs.google.com/document/d/1NURQKAz7C3yOgiCeUfs5_VUgNjixYUvU/edit?usp=sharing&ouid=105905708338666140795&rtpof=true&sd=true", "tipo": "DOCX", "categoria": "Aula 2" },
-            { "nome": "Métodos Científicos", "url": "https://files.catbox.moe/qrqa1b.pdf", "tipo": "PDF", "categoria": "Aula 3" },
-            { "nome": "Etapas da Pesquisa Científica", "url": "https://docs.google.com/document/d/166J-GdUC-ghYifQk0clQ34AufG9HNkSq/edit?usp=sharing&ouid=105905708338666140795&rtpof=true&sd=true", "tipo": "DOCX", "categoria": "Aula 4" }
+            {
+              "nome": "O Pesquisador e a Comunicação Científica",
+              "url": "https://docs.google.com/document/d/1WrhP96RU5uTBDBKIYWh01_3-cwS6X5jH/edit?usp=sharing&ouid=105905708338666140795&rtpof=true&sd=true",
+              "tipo": "DOCX",
+              "categoria": "Aula 1"
+            },
+            {
+              "nome": "Tipos de Conhecimento",
+              "url": "https://docs.google.com/document/d/17-0qq7BpDlElS3KvhJrZB89NFRxZSQ1s/edit?usp=sharing&ouid=105905708338666140795&rtpof=true&sd=true",
+              "tipo": "DOCX",
+              "categoria": "Aula 1"
+            },
+            {
+              "nome": "A Filosofia e a Metodologia da Pesquisa Científica",
+              "url": "https://docs.google.com/document/d/1IxnPaBufdbl9gdm5WVpTeMCHueLgeA9O/edit?usp=sharing&ouid=105905708338666140795&rtpof=true&sd=true",
+              "tipo": "DOCX",
+              "categoria": "Aula 1"
+            },
+            {
+              "nome": "Atividade em Grupo",
+              "url": "https://docs.google.com/document/d/1dO3Rja7WcRq8kwjBRFyWus6Rx4a7XdEX/edit?usp=sharing&ouid=105905708338666140795&rtpof=true&sd=true",
+              "tipo": "DOCX",
+              "categoria": "Aula 1"
+            },
+            {
+              "nome": "Linha do Tempo",
+              "url": "https://files.catbox.moe/qwrjtr.jpg",
+              "tipo": "JPG",
+              "categoria": "Aula 1"
+            },
+            {
+              "nome": "A PESQUISA E SUAS CLASSIFICAÇÕES",
+              "url": "https://docs.google.com/document/d/1NURQKAz7C3yOgiCeUfs5_VUgNjixYUvU/edit?usp=sharing&ouid=105905708338666140795&rtpof=true&sd=true",
+              "tipo": "DOCX",
+              "categoria": "Aula 2"
+            },
+            {
+              "nome": "Métodos Científicos",
+              "url": "https://files.catbox.moe/qrqa1b.pdf",
+              "tipo": "PDF",
+              "categoria": "Aula 3"
+            },
+            {
+              "nome": "Etapas da Pesquisa Científica",
+              "url": "https://docs.google.com/document/d/166J-GdUC-ghYifQk0clQ34AufG9HNkSq/edit?usp=sharing&ouid=105905708338666140795&rtpof=true&sd=true",
+              "tipo": "DOCX",
+              "categoria": "Aula 4"
+            }
           ],
           "resumos": "",
           "status": "Em andamento"
@@ -169,14 +325,14 @@
       "data": "2026-05-04",
       "horario": "07:30",
       "local": "Sala 206",
-      "tipo": "Prova" 
+      "tipo": "Prova"
     },
     {
       "evento": "Prova de Cálculo Diferencial e Integral I",
       "data": "2026-05-26",
       "horario": "07:30",
       "local": "Sala 206",
-      "tipo": "Prova" 
+      "tipo": "Prova"
     }
   ],
   "links_uteis": [
@@ -185,9 +341,21 @@
       "icone": "ph-code",
       "cor": "#5865f2",
       "links": [
-        { "nome": "VSCode", "url": "https://code.visualstudio.com/", "desc": "O editor padrão da indústria." },
-        { "nome": "GitHub", "url": "https://github.com/", "desc": "Hospedagem de código e colaboração." },
-        { "nome": "Stack Overflow", "url": "https://stackoverflow.com/", "desc": "A maior comunidade de Q&A para devs." }
+        {
+          "nome": "VSCode",
+          "url": "https://code.visualstudio.com/",
+          "desc": "O editor padrão da indústria."
+        },
+        {
+          "nome": "GitHub",
+          "url": "https://github.com/",
+          "desc": "Hospedagem de código e colaboração."
+        },
+        {
+          "nome": "Stack Overflow",
+          "url": "https://stackoverflow.com/",
+          "desc": "A maior comunidade de Q&A para devs."
+        }
       ]
     },
     {
@@ -195,22 +363,53 @@
       "icone": "ph-student",
       "cor": "#3ba55c",
       "links": [
-        { "nome": "Portal de Sistemas", "url": "https://sistemas.ufmt.br/ufmt.portalsistemas", "desc": "Acesso a diversas ferramentas e serviços." },
-        { "nome": "Site do Curso", "url": "https://computacao.cua.ufmt.br/", "desc": "Site oficial do curso de Computação." },
-        { "nome": "Biblioteca Digital", "url": "www.biblioteca.ufmt.br", "desc": "Acesso a acervo de livros e artigos." },
-        { "nome": "Programa de Tutoria 2026/1", "url": "https://docs.google.com/forms/d/e/1FAIpQLScXhC_SeihADbJyRtYt1mc03d7rMUSh2P64fM7obvJ3fyWkiA/viewform?usp=dialog", "desc": "Suporte acadêmico e orientação." }
+        {
+          "nome": "Portal de Sistemas",
+          "url": "https://sistemas.ufmt.br/ufmt.portalsistemas",
+          "desc": "Acesso a diversas ferramentas e serviços."
+        },
+        {
+          "nome": "Site do Curso",
+          "url": "https://computacao.cua.ufmt.br/",
+          "desc": "Site oficial do curso de Computação."
+        },
+        {
+          "nome": "Biblioteca Digital",
+          "url": "www.biblioteca.ufmt.br",
+          "desc": "Acesso a acervo de livros e artigos."
+        },
+        {
+          "nome": "Programa de Tutoria 2026/1",
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLScXhC_SeihADbJyRtYt1mc03d7rMUSh2P64fM7obvJ3fyWkiA/viewform?usp=dialog",
+          "desc": "Suporte acadêmico e orientação."
+        }
       ]
     },
-
     {
       "categoria": "Contatos e Info",
       "icone": "ph-address-book",
       "cor": "#ed4245",
       "links": [
-        { "nome": "SEI UFMT", "url": "https://sei.ufmt.br", "desc": "Sistema Eletrônico de Informações." },
-        { "nome": "Bolsas e Auxílios", "url": "https://www.ufmt.br/pro-reitoria/prae/pagina/bolsas-e-auxilios/1387", "desc": "Site sobre Bolsas e Auxílios" },
-        { "nome": "Email Coordenação", "url": "copy:coordenacao@computacao.cua.ufmt.br", "desc": "Clique para copiar o email." },
-        { "nome": "Telefone/WhatsApp", "url": "https://wa.me/556634020729", "desc": "Clique para abrir conversa." }
+        {
+          "nome": "SEI UFMT",
+          "url": "https://sei.ufmt.br",
+          "desc": "Sistema Eletrônico de Informações."
+        },
+        {
+          "nome": "Bolsas e Auxílios",
+          "url": "https://www.ufmt.br/pro-reitoria/prae/pagina/bolsas-e-auxilios/1387",
+          "desc": "Site sobre Bolsas e Auxílios"
+        },
+        {
+          "nome": "Email Coordenação",
+          "url": "copy:coordenacao@computacao.cua.ufmt.br",
+          "desc": "Clique para copiar o email."
+        },
+        {
+          "nome": "Telefone/WhatsApp",
+          "url": "https://wa.me/556634020729",
+          "desc": "Clique para abrir conversa."
+        }
       ]
     }
   ],
@@ -241,38 +440,86 @@
     {
       "dia": "2ª Feira",
       "aulas": [
-        { "materia": "Prog. de Computadores", "hora": "07:30 - 09:30", "sala": "Sala 206" },
-        { "materia": "Prog. de Computadores", "hora": "09:30 - 11:30", "sala": "Sala 206" },
-        { "materia": "Met. e Redação Científica", "hora": "13:30 - 15:30", "sala": "Sala 206" },
-        { "materia": "Met. e Redação Científica", "hora": "15:30 - 17:30", "sala": "Sala 206" }
+        {
+          "materia": "Prog. de Computadores",
+          "hora": "07:30 - 09:30",
+          "sala": "Sala 206"
+        },
+        {
+          "materia": "Prog. de Computadores",
+          "hora": "09:30 - 11:30",
+          "sala": "Sala 206"
+        },
+        {
+          "materia": "Met. e Redação Científica",
+          "hora": "13:30 - 15:30",
+          "sala": "Sala 206"
+        },
+        {
+          "materia": "Met. e Redação Científica",
+          "hora": "15:30 - 17:30",
+          "sala": "Sala 206"
+        }
       ]
     },
     {
       "dia": "3ª Feira",
       "aulas": [
-        { "materia": "Cálculo I", "hora": "07:30 - 09:30", "sala": "Sala 206" },
-        { "materia": "Cálculo I", "hora": "09:30 - 11:30", "sala": "Sala 206" }
+        {
+          "materia": "Cálculo I",
+          "hora": "07:30 - 09:30",
+          "sala": "Sala 206"
+        },
+        {
+          "materia": "Cálculo I",
+          "hora": "09:30 - 11:30",
+          "sala": "Sala 206"
+        }
       ]
     },
     {
       "dia": "4ª Feira",
       "aulas": [
-        { "materia": "Vetores e Geom. Analítica", "hora": "13:30 - 15:30", "sala": "Sala 206" },
-        { "materia": "Vetores e Geom. Analítica", "hora": "15:30 - 17:30", "sala": "Sala 206" }
+        {
+          "materia": "Vetores e Geom. Analítica",
+          "hora": "13:30 - 15:30",
+          "sala": "Sala 206"
+        },
+        {
+          "materia": "Vetores e Geom. Analítica",
+          "hora": "15:30 - 17:30",
+          "sala": "Sala 206"
+        }
       ]
     },
     {
       "dia": "5ª Feira",
       "aulas": [
-        { "materia": "Mecânica", "hora": "07:30 - 09:30", "sala": "Sala 206" },
-        { "materia": "Mecânica", "hora": "09:30 - 11:30", "sala": "Sala 206" }
+        {
+          "materia": "Mecânica",
+          "hora": "07:30 - 09:30",
+          "sala": "Sala 206"
+        },
+        {
+          "materia": "Mecânica",
+          "hora": "09:30 - 11:30",
+          "sala": "Sala 206"
+        }
       ]
     },
     {
       "dia": "6ª Feira",
       "aulas": [
-        { "materia": "Introdução à Computação", "hora": "07:30 - 09:30", "sala": "Sala 206" },
-        { "materia": "Cálculo I", "hora": "09:30 - 11:30", "sala": "Sala 206" }
+        {
+          "materia": "Introdução à Computação",
+          "hora": "07:30 - 09:30",
+          "sala": "Sala 206"
+        },
+        {
+          "materia": "Cálculo I",
+          "hora": "09:30 - 11:30",
+          "sala": "Sala 206"
+        }
       ]
     }
   ]
